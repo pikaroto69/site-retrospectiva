@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .noto-sans-<uniquifier> {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+:root{
+    --vermelhot: rgb(172, 34, 34)
+    ;
+}
+p{
+    font-family: "Noto Sans", sans-serif;
+}
+.cabecalho{
+    background-color: var(--vermelhot) ;
+    padding: 30px;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.centro{
+    justify-content: center;
+}
+.flex{
+   display: flex;
+}
+.logo{
+    width:150px ;
+    height:58px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5)
+}
+.titulo{
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight:bolder ;
+    background-color: #fc0404;
+    padding: 10px;
+    padding-bottom: 0px;
+    box-shadow: black;
+}
+.ano{
+    margin-top: 10px;
+    padding-top: 2px;
+
+}
+.sobretit{
+    background-color: rgb(197, 60, 60);
+    border-radius: 40px;
+    margin: 15px;
+    font-size:30px;
+    display: block;
+    text-align: center;
+}
+.esquerdo{
+    justify-content: flex-start;
+}
+.sobre{
+    background-color: #8e9ba8;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+.bet{
+    justify-content: space-between;
+    
+}
+.intelecto{
+    width: 450px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.intelecto:hover{
+    width: 500px;
+    height: 500px;
+}
+.textosobre{
+    width: 600px;
+    margin-left: 10px;
+    font-size: x-large;
+    background-color: #8e9ba8;
+}
+.subtitulo{
+    font-family: "Lato", sans-serif;
+}
+.aprendi-titulo{
+    text-align:center ;
+    display: block;
+    margin: 20px;
+    background-color: rgb(197, 60, 60);
+    padding: 10px, 10px, 10px, 10px;
+    font-size:xx-large;
+    padding:2px;
+}
+.aprendi{
+    background-color: #8e9ba8;
+    margin:10px;
+    padding: 20px;
+}
+.best{
+    display:block;
+    text-align: center;
+    margin: 20px;
+    font-size:xx-large;
+    background-color: rgb(197, 60, 60) ;
+}
+.intro{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.quadrado{
+    background-color: #bfc4c9;
+    margin: 40px;
+    margin-top: 0px;
+    border-radius:5px;
+    padding: 10px;
+}
+.quadrado:hover{
+    padding: 30px;
+}
+.topicos{
+    background-color: #bc1616;
+    border-radius: 20px;
+    margin: 30px;
+    margin-bottom:0px;
+    padding: 5px;
+}
+.foto{
+    width:200px;
+    height:200px;
+    margin:50px;
+    
+    border-radius: 10px;
+}
+.maco-gotica{
+    padding: 300px;
+}
+.pausado{
+    text-align: center;
+}
+.pausa{
+    font-size: xx-large;
+    margin:10px;
+}
+.memes, img{
+    background-color: #d2d6db;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+.foto:hover{
+    width:300px;
+    height:300px;
+    margin:5px;
+}
+.quadrados{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+.t-quadra{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+.t-final{
+    margin: 20px;
+}
+.resposta{
+    margin:10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #d2d6db;
+    padding: 10px;
+
+    display: inline-block; /* Faz o texto e a imagem ficarem lado a lado */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+.nft {
+    opacity: 0; /* Inicialmente invisível */
+    max-width: 100px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática */
+    transition: opacity 0.3s ease; /* Transição suave de opacidade */
+}
+.coluna{
+    flex-direction: column;
+    align-items: center;
+}
+.resposta:hover + .nft {
+    opacity: 1; /* Mostra a imagem */
+}
+footer{
+    background-color:#fc0404 ;
+    padding:20px;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5)
+}    
+.rodape{
+    text-align: center;
+}
